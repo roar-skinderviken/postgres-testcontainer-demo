@@ -22,7 +22,7 @@
     <micronaut.data.version>3.10.0</micronaut.data.version>
     <testcontainers.version>1.18.0</testcontainers.version>
     <exec.mainClass>no.javatec.demo.ApplicationKt</exec.mainClass>
-    <kotlinVersion>1.8.10</kotlinVersion>
+    <kotlinVersion>1.8.21</kotlinVersion>
   </properties>
 
   <repositories>
