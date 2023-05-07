@@ -19,7 +19,7 @@ abstract class BehaviorCleanDbSpec(body: BehaviorSpec.() -> Unit = {}) : Behavio
         transactionManager.getTransaction(DefaultTransactionDefinition()).also { tx ->
 
             entityManager
-                .createQuery("delete from TestEntity")
+                .createQuery("delete from DemoEntity")
                 .executeUpdate()
 
             entityManager.clear()

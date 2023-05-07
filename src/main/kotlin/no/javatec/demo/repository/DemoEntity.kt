@@ -12,7 +12,7 @@ import javax.persistence.Table
 @Entity
 @Table(name = "my_test_table")
 @Introspected
-data class TestEntity(
+data class DemoEntity(
 
     @Id
     val id: UUID = UUID.randomUUID(),
