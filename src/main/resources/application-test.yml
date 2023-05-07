@@ -1,0 +1,7 @@
+datasources:
+  default:
+    url: will be set during tests
+    username: will be set during tests
+    password: will be set during tests
+    driver-class-name: org.postgresql.Driver
+    #driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver

@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: no.javatec.demo
+testFramework: kotest
+sourceLanguage: kotlin
+buildTool: maven
+features: [annotation-api, app-name, data, data-jpa, flyway, http-client, jackson-databind, jdbc-hikari, kotest, kotlin, kotlin-application, logback, maven, mockk, netty-server, postgres, readme, shade, testcontainers, yaml]
