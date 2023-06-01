@@ -20,7 +20,7 @@
     <micronaut.version>3.9.1</micronaut.version>
     <micronaut.runtime>netty</micronaut.runtime>
     <micronaut.data.version>3.10.0</micronaut.data.version>
-    <testcontainers.version>1.18.1</testcontainers.version>
+    <testcontainers.version>1.18.3</testcontainers.version>
     <exec.mainClass>no.javatec.demo.ApplicationKt</exec.mainClass>
     <kotlinVersion>1.8.21</kotlinVersion>
   </properties>
