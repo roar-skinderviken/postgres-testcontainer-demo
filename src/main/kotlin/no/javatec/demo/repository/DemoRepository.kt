@@ -5,5 +5,4 @@ import io.micronaut.data.repository.CrudRepository
 import java.util.UUID
 
 @Repository
-interface DemoRepository : CrudRepository<DemoEntity, UUID> {
-}
+interface DemoRepository : CrudRepository<DemoEntity, UUID>

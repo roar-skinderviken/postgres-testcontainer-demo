@@ -1,6 +1,7 @@
 micronaut:
   application:
     name: postgresTestContainerDemo
+
 datasources:
   default:
     url: jdbc:postgresql://localhost:5432/postgres
@@ -9,16 +10,19 @@ datasources:
     driver-class-name: org.postgresql.Driver
     db-type: postgres
     dialect: POSTGRES
+
 netty:
   default:
     allocator:
       max-order: 3
+
 jpa:
   default:
     properties:
       hibernate:
         hbm2ddl:
           auto: none
+
 flyway:
   datasources:
     default:

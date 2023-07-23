@@ -1,2 +1,2 @@
 # postgres-testcontainer-demo
-Micronaut:3.9.1 Kotlin-app using Postgres testcontainer in Kotest
+Micronaut:4.x Kotlin-app using Postgres test container in Kotest.

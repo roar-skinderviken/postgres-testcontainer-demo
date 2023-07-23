@@ -2,8 +2,8 @@ package no.javatec.demo.repository
 
 import io.kotest.matchers.shouldBe
 import io.micronaut.test.extensions.kotest5.annotation.MicronautTest
+import jakarta.persistence.EntityManager
 import no.javatec.demo.BehaviorCleanDbSpec
-import javax.persistence.EntityManager
 
 @MicronautTest
 class DemoRepositoryTest(

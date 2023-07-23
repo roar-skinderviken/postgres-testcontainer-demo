@@ -5,7 +5,7 @@ import io.kotest.core.test.TestCase
 import io.micronaut.transaction.SynchronousTransactionManager
 import io.micronaut.transaction.support.DefaultTransactionDefinition
 import jakarta.inject.Inject
-import javax.persistence.EntityManager
+import jakarta.persistence.EntityManager
 
 abstract class BehaviorCleanDbSpec(body: BehaviorSpec.() -> Unit = {}) : BehaviorSpec(body) {
 
