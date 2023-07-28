@@ -30,9 +30,8 @@ class DemoRepositoryTest(
         }
     }
 
-
     Given("empty database") {
-        val entityInTest = DemoEntity(message = "Hello World!")
+        val entityInTest = DemoEntity(message = "Hello World 2!")
 
         When("save entityInTest") {
             sut.save(entityInTest)
