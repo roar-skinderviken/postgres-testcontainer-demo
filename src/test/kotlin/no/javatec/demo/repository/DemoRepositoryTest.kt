@@ -12,9 +12,7 @@ class DemoRepositoryTest(
 ) : BehaviorCleanDbSpec({
 
     Given("test entity") {
-        val entityInTest = DemoEntity(
-            message = "Hello World!"
-        )
+        val entityInTest = DemoEntity(message = "Hello World!")
 
         When("persist entityInTest") {
             entityManager.persist(entityInTest)

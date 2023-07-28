@@ -18,7 +18,7 @@ data class DemoEntity(
     val id: UUID = UUID.randomUUID(),
 
     @Column(name = "message", columnDefinition = "varchar(255)", nullable = false)
-    val message: String? = null,
+    val message: String,
 
     @DateCreated
     @Column(nullable = false)
