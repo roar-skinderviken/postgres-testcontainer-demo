@@ -20,7 +20,7 @@
         <exec.mainClass>no.javatec.demo.ApplicationKt</exec.mainClass>
 
         <micronaut.runtime>netty</micronaut.runtime>
-        <testcontainers.version>1.19.4</testcontainers.version>
+        <testcontainers.version>1.19.6</testcontainers.version>
         <kotlinVersion>1.9.22</kotlinVersion>
     </properties>
 
