@@ -22,5 +22,5 @@ data class DemoEntity(
 
     @DateCreated
     @Column(nullable = false)
-    var created: ZonedDateTime? = null
+    var created: ZonedDateTime = ZonedDateTime.now()
 )
