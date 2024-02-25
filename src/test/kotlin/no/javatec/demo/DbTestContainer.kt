@@ -2,7 +2,7 @@ package no.javatec.demo
 
 import org.testcontainers.containers.PostgreSQLContainer
 
-object TestDbContainer {
+object DbTestContainer {
 
     private lateinit var instance: PostgreSQLContainer<Nothing>
 

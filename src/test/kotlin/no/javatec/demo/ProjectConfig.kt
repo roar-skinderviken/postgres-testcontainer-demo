@@ -8,10 +8,10 @@ object ProjectConfig : AbstractProjectConfig() {
     override fun extensions() = listOf(MicronautKotest5Extension)
 
     override suspend fun beforeProject() {
-        TestDbContainer.start()
+        DbTestContainer.start()
     }
 
     override suspend fun afterProject() {
-        TestDbContainer.stop()
+        DbTestContainer.stop()
     }
 }
