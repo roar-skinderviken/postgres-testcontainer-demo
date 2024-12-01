@@ -21,7 +21,7 @@
 
         <micronaut.runtime>netty</micronaut.runtime>
         <testcontainers.version>1.20.3</testcontainers.version>
-        <kotlinVersion>2.0.21</kotlinVersion>
+        <kotlinVersion>2.1.0</kotlinVersion>
     </properties>
 
     <repositories>
