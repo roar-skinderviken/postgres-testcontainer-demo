@@ -20,8 +20,8 @@
         <exec.mainClass>no.javatec.demo.ApplicationKt</exec.mainClass>
 
         <micronaut.runtime>netty</micronaut.runtime>
-        <testcontainers.version>1.21.0</testcontainers.version>
-        <kotlinVersion>2.1.20</kotlinVersion>
+        <testcontainers.version>1.21.2</testcontainers.version>
+        <kotlinVersion>2.1.21</kotlinVersion>
     </properties>
 
     <repositories>
@@ -96,7 +96,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.7.5</version>
+            <version>42.7.6</version>
             <scope>runtime</scope>
         </dependency>
 
